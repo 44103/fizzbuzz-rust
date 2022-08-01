@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  rust:
+    image: rust:latest
+    volumes:
+      - ./app:/work
+    working_dir: /work
+    tty: true
