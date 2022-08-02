@@ -1,7 +1,5 @@
 pub fn fizz_buzz() {
-  let mut x = 1;
-
-  while x <= 100 {
+  for x in 1..101 {
     if x % 15 == 0 {
       println!("FizzBuzz");
     } else if x % 3 == 0 {
@@ -11,7 +9,5 @@ pub fn fizz_buzz() {
     } else {
       println!("{x}");
     }
-
-    x += 1;
   }
 }
