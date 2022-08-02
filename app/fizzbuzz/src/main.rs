@@ -1,5 +1,6 @@
-mod day01;
+// mod day01;
+mod day02;
 
 fn main() {
-  day01::fizz_buzz()
+  day02::fizz_buzz()
 }
