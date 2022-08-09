@@ -5,8 +5,9 @@
 // mod day05;
 // mod day06;
 // mod day07;
-mod day08;
+// mod day08;
+mod day09;
 
 fn main() {
-  day08::fizz_buzz()
+  day09::fizz_buzz()
 }
